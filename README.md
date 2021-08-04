@@ -7,12 +7,12 @@ This is a plug-in example with xml text parsing capabilities that can be easily 
 The plugin project link: https://www.unrealengine.com/marketplace/en-US/product/2884482d7e534f218fb4a39626f6b54b
 
 
-使用方法：
-1、准备好示例工程TestMyXmlParser和插件工程MyXmlParser
-2、拷贝MyXmlParser目录到TestMyXmlParser目录下的Plugins目录中（如果Plugins目录不存在则需要新建Plugins目录）
-3、使用4.22版本或更高版本的UE4Editor打开TestMyXmlParser目录下的uproject文件即可
-4、如果在windows系统下出现编译错误，请在uproject文件上点击鼠标右键菜单中的"Generate visual studio project files"来生成visual studio解决方案，再使用visual studio 2017或更高版本编译工程，如果在macos系统下出现编译错误，则使用xcode编译，再使用UE4Editor打开uproject文件
-5、在windows系统中运行测试前需要将utf8test.xml拷贝到C盘下（如果是其他操作系统则需要修改LoadFile节点的Path值为系统下该xml文件对应的值), LoadFile节点的位置位于BP_testXmlParser蓝图中的Event Graph中
+使用方法：  
+1. 准备好示例工程TestMyXmlParser和插件工程MyXmlParser  
+2. 拷贝MyXmlParser目录到TestMyXmlParser目录下的Plugins目录中（如果Plugins目录不存在则需要新建Plugins目录）  
+3. 使用4.22版本或更高版本的UE4Editor打开TestMyXmlParser目录下的uproject文件即可  
+4. 如果在windows系统下出现编译错误，请在uproject文件上点击鼠标右键菜单中的"Generate visual studio project files"来生成visual studio解决方案，再使用visual studio 2017或更高版本编译工程，如果在macos系统下出现编译错误，则使用xcode编译，再使用UE4Editor打开uproject文件  
+5. 在windows系统中运行测试前需要将utf8test.xml拷贝到C盘下（如果是其他操作系统则需要修改LoadFile节点的Path值为系统下该xml文件对应的值), LoadFile节点的位置位于BP_testXmlParser蓝图中的Event Graph中  
 
 How to use:
 1. Prepare the example project TestMyXmlParser and the plugin project MyXmlParser
